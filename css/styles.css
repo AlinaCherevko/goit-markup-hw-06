@@ -583,7 +583,7 @@ img {
   min-height: 576px;
   background-color: var(--modal-bg-color);
   border-radius: 4px;
-  padding: 24px;
+  padding: 72px 24px 24px 24px;
   transform: translate(-50%, -50%);
   transition-property: transform;
   transition-duration: 300ms;
@@ -593,9 +593,9 @@ img {
   transform: translateX(-50%);
 }
 .modal-close {
-  /* position: absolute;
+  position: absolute;
   right: 24px;
-  top: 24px; */
+  top: 24px;
   width: 24px;
   height: 24px;
   border-radius: 50%;
@@ -627,7 +627,6 @@ img {
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--first-title-color);
-  margin-top: 24px;
   margin-bottom: 16px;
 }
 .modal-input {
@@ -642,7 +641,7 @@ img {
   font-size: 12px;
   line-height: calc(16 / 12);
   letter-spacing: 0.04em;
-  color: rgba(117, 117, 117, 0.5);
+  color: var(--first-title-color);
   transition-property: border-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -667,7 +666,7 @@ img {
   font-size: 12px;
   line-height: calc(16 / 12);
   letter-spacing: 0.04em;
-  color: rgba(117, 117, 117, 0.5);
+  color: var(--first-title-color);
   transition-property: border-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
